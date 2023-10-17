@@ -10,7 +10,7 @@ const cardsData = [
     header: 'Motohub, NIA, and FRSC Launch',
     details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac, mattis dignissim purus cursus sollicitudin feugiat elementum quam suscipit. Adipiscing libero sit tellus facilisi.',
     text: 'Read full article',
-    link: '/blog'
+    link: 'blog'
   },
   {
     image: health,
@@ -18,7 +18,7 @@ const cardsData = [
     header: 'Haima Health begins operations with MotoFit solution',
     details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac, mattis dignissim purus cursus sollicitudin feugiat elementum quam suscipit. Adipiscing libero sit tellus facilisi.',
     text: 'Read full article',
-    link: '/blogDet'
+    link: 'blogDet'
   },
   {
     image: visit,
@@ -26,7 +26,7 @@ const cardsData = [
     header: 'Best places to visit in Nigeria and how to visit them',
     details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac, mattis dignissim purus cursus sollicitudin feugiat elementum quam suscipit. Adipiscing libero sit tellus facilisi.',
     text: 'Read full article',
-    link: '/blog3'
+    link: 'blog3'
   },
 ];
 
