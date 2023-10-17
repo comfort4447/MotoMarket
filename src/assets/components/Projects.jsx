@@ -1,12 +1,11 @@
 import React from 'react';
-import bar from '../Images/Bar1.png';
-import bg from '../Images/Motohub.png';
-import mac from '../Images/Mac.png';
-import moto from '../Images/moto.png';
-import iPhone2 from '../Images/iPhone2.png';
-import iPhone1 from '../Images/iPhone1.png';
-import MMAPP from '../Images/MMAPP.png';
-import MOTOFIT from '../Images/MOTOFIT.png';
+import bar from '../../assets/Images/Bar1.png';
+import mac from '../../assets/Images/Mac.png';
+import moto from '../../assets/Images/moto.png';
+import iPhone2 from '../../assets/Images/iPhone2.png';
+import iPhone1 from '../../assets/Images/iPhone1.png';
+import MMAPP from '../../assets/Images/MMAPP.png';
+import MOTOFIT from '../../assets/Images/MOTOFIT.png';
 
 const Project = () => {
   return (

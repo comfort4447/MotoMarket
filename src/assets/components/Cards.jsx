@@ -1,8 +1,7 @@
 import React from 'react';
-import frsc from '../Images/frsc.png';
-import health from '../Images/health.png';
-import visit from '../Images/visit.png';
-import { Link } from 'react-router-dom';
+import frsc from '../../assets/Images/frsc.png';
+import health from '../../assets/Images/health.png';
+import visit from '../../assets/Images/visit.png';
 
 const cardsData = [
   {

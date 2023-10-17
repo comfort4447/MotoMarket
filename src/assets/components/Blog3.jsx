@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import visit from '../Images/visit.png';
+import visit from '../../assets/Images/visit.png';
 import Header1 from './Header1';
 
 const Blog3 = () => {

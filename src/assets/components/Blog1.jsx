@@ -1,5 +1,5 @@
 import React from 'react';
-import frsc from '../Images/frsc.png';
+import frsc from '../../assets/Images/frsc.png';
 import Footer from './Footer';
 import Header1 from './Header1';
 

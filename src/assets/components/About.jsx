@@ -1,6 +1,6 @@
 import React from 'react';
-import Abt from '../Images/About.png';
-import bar from '../Images/Bar1.png';
+import Abt from '../../assets/Images/About.png';
+import bar from '../../assets/Images/Bar1.png';
 
 const About = () => {
   const backgroundImageStyle = {

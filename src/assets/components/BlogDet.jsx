@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from './Footer';
-import health from '../Images/health.png';
+import health from '../../assets/Images/health.png';
 import Header1 from './Header1';
 
 const BlogDet = () => {

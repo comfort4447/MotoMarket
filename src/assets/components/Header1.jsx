@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from '../Images/logo.png'
+import logo from '../../assets/Images/logo.png';
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
 const Header1 = () => {

@@ -1,9 +1,9 @@
 import React from 'react';
-import layer from '../Images/car.png';
-import logo from '../Images/logo.png';
-import facebook from '../Images/facebook.png';
-import twitter from '../Images/twitter.png';
-import linkedin from '../Images/linkedin.png';
+import layer from '../../assets/Images/car.png';
+import logo from '../../assets/Images/logo.png';
+import facebook from '../../assets/Images/facebook.png';
+import twitter from '../../assets/Images/twitter.png';
+import linkedin from '../../assets/Images/linkedin.png';
 
 const Footer = () => {
   const secondaryTextColor100 = 'bg-secondary-800';

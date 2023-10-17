@@ -1,6 +1,6 @@
 import React from 'react';
-import bar from '../Images/Bar1.png';
-import blog from '../Images/bg.png';
+import bar from '../../assets/Images/Bar1.png';
+import blog from '../../assets/Images/bg.png';
 import Cards from './Cards';
 
 const Blog = () => {

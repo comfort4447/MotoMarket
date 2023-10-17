@@ -1,9 +1,9 @@
 import React from 'react';
-import traffic from '../Images/traffic.png';
-import park from '../Images/parking.png';
-import security from '../Images/security.png';
-import transport from '../Images/transport.png';
-import bar from '../Images/Bar1.png';
+import traffic from '../../assets/Images/traffic.png';
+import park from '../../assets/Images/parking.png';
+import security from '../../assets/Images/security.png';
+import transport from '../../assets/Images/transport.png';
+import bar from '../../assets/Images/Bar1.png';
 
 const Service = () => {
   return (

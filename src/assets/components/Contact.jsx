@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import bar from '../Images/Bar1.png';
+import bar from '../../assets/Images/Bar1.png';
 
 const Contact = () => {
   const secondaryTextColor100 = 'bg-secondary-600'; // Apply secondaryTextColor100 as the background color
