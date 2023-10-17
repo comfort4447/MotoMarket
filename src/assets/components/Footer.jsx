@@ -19,7 +19,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className={`py-16  ${secondaryTextColor100}`}>
+    <footer className={`py-16 mx-auto  ${secondaryTextColor100}`}>
       <div className="h-1/2 relative px-8" style={backgroundContainerStyle}>
       <img src={layer} alt="Image" className='mt-32 absolute' /> {/* Apply marginTop to this div */}
         <div className="h-full relative"> {/* Apply background image styles here */}
