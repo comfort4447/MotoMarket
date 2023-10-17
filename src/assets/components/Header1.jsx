@@ -32,7 +32,7 @@ const Header1 = () => {
                 <div className="w-25 h-25 cursor-pointer">
                     <a href="/" ><img src={logo} alt='logo' /></a>
                 </div>
-                <div onClick={() => setIsOpen(!isOpen)} className="text-white font-custom">
+                <div onClick={() => setIsOpen(!isOpen)} className="text-black font-custom">
                     <div className="w-7 h-7 absolute right-8 top-6 cursor-pointer md:hidden">
                         {isOpen ? <XMarkIcon /> : <Bars3BottomRightIcon />}
                     </div>

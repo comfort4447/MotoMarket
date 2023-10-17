@@ -13,8 +13,8 @@ const BlogDet = () => {
   return (
     <div>
       <Header1 />
-      <div className="flex flex-col p-24">
-        <h1 className="text-3xl mt-4 mb-4 text-center">Motohub, NIA and FRSC Launch</h1>
+      <div className="flex flex-col px-4 py-8 md:p-24">
+        <h1 className="text-2xl mt-16 mb-4 text-center">Motohub, NIA and FRSC Launch</h1>
         <img src={health} alt="Blog Image" className="mb-4" style={{ maxHeight: '500px' }} />
         <p className="text-center mb-8 text-gray-500">{blogDescription}</p>
         <p className="text-left mb-4 text-gray-500">{blogContent}</p>
