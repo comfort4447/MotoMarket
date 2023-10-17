@@ -1,6 +1,6 @@
 import React from 'react';
 import Background from '../../assets/Images/mobile.png';
-import Bar from '../../assets/Images/Bar.png';
+import Bar from '../../assets/Images/bar.png';
 import About from './About';
 import Service from './Services';
 import Project from './Projects';
