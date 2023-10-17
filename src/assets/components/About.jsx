@@ -12,7 +12,7 @@ const About = () => {
   const secondaryTextColor100 = 'text-secondary-100';
 
   return (
-    <section className='pl-24 pr-10 bg-cover bg-left h-screen flex items-center' id='about' style={backgroundImageStyle}>
+    <section className='pl-8 pr-10 bg-cover bg-left h-screen flex items-center' id='about' style={backgroundImageStyle}>
       <div className="flex-block items-center">
         <img src={bar} alt="Small Image" className="mr-5 -mt-50" />
         <p className="max-w-xl text-lg md:text-xl lg:text-3xl mb-8 ">
