@@ -8,6 +8,7 @@ import Blog from './Blog';
 import Contact from './Contact';
 import Footer from './Footer';
 import Header from './Header';
+import OurTeam from './OurTeam';
 
 const Hero = () => {
   return (
@@ -31,6 +32,7 @@ const Hero = () => {
     <About />
     <Service />
     <Project />
+    <OurTeam />
     <Blog />
     <Contact />
     <Footer />
