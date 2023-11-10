@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade'; // Import the Fade component
 import frsc from '../../assets/Images/frsc.png';
 import health from '../../assets/Images/health.png';
 import visit from '../../assets/Images/visit.png';
@@ -34,18 +35,19 @@ const cardsData = [
 const Card = ({ image, date, header, details, text, link }) => {
   const secondaryTextColor100 = 'text-secondary-500';
   return (
-    <div className="bg-white rounded-lg p-4 md:w-1/2 lg:w-96 m-4 h-auto">
-      <div className="relative rounded-lg overflow-hidden">
-        <img src={image} alt={header} className="w-full h-48 object-cover rounded-lg" />
+    <Fade bottom> {/* Wrap the card content with Fade component */}
+      <div className="bg-white rounded-lg p-4 md:w-1/2 lg:w-96 m-4 h-auto">
+        <div className="relative rounded-lg overflow-hidden">
+          <img src={image} alt={header} className="w-full h-48 object-cover rounded-lg" />
+        </div>
+        <p className="text-sm text-gray-500 mt-4 text-left">{date}</p>
+        <h2 className="text-md font-semibold mb-2 mt-4 text-left">{header}</h2>
+        <p className="text-left">{details}</p>
+        <Link to={link}>
+          <a href=''><p className={`text-sm mt-4 text-left cursor-pointer ${secondaryTextColor100}`}>{text}</p></a>
+        </Link>
       </div>
-      <p className="text-sm text-gray-500 mt-4 text-left">{date}</p>
-      <h2 className="text-md font-semibold mb-2 mt-4 text-left">{header}</h2>
-      <p className="text-left">{details}</p>
-      <Link to={link}><a href=''><p className={`text-sm mt-4 text-left cursor-pointer ${secondaryTextColor100}`}>{text}</p></a></Link>
-      {/* <Link to="/blog">
-        <p className={`text-sm mt-4 text-left cursor-pointer ${secondaryTextColor100}`}></p>
-      </Link> */}
-    </div>
+    </Fade>
   );
 };
 
