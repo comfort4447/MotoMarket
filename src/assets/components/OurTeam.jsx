@@ -6,7 +6,7 @@ const OurTeam = () => {
   
 
   return (
-    <div className="bg-secondary-600 min-h-screen py-16" id='blog'>
+    <div className="bg-secondary-600 min-h-screen py-16" id='team'>
       <div className="container mx-auto text-center">
         <img src={bar} alt="Small Image" className="-mt-25 text-center mx-auto" />
         <h1 className="text-3xl text-black font-semibold mb-2">Our Team</h1>
