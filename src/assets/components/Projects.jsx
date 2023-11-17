@@ -1,5 +1,4 @@
 import React from 'react';
-import Slide from 'react-reveal/Slide';
 import bar from '../../assets/Images/Bar1.png';
 import mac from '../../assets/Images/Mac.png';
 import moto from '../../assets/Images/moto.png';
@@ -11,7 +10,11 @@ import MOTOFIT from '../../assets/Images/MOTOFIT.png';
 const Project = () => {
   return (
     <div className="bg-gray-50 py-16" id='projects'>
-      <Slide top>
+      <div data-aos="fade-down"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="200"
+                data-aos-offset="0"
+                >
         <div className="container mx-auto text-center">
           <img src={bar} alt="Small Image" className="mx-auto" />
           <h1 className="text-3xl text-gray-900 font-semibold mb-4">Our Projects</h1>
@@ -19,9 +22,14 @@ const Project = () => {
             Our customer-focused projects are developed after intensive research and development with an ethos of service, simplicity, and sustained strive for innovation
           </p>
         </div>
-      </Slide>
-      <Slide bottom>
+        </div>
+      
         <div className="mt-16 relative bg-secondary-600">
+        <div data-aos="zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="200"
+                data-aos-offset="0"
+                data-aos-duration="1000">
           <img
             src={moto}
             alt="Background Image"
@@ -50,11 +58,12 @@ const Project = () => {
               </button>
             </div>
           </div>
+          </div>
         </div>
-      </Slide>
+
 
       <div className="flex flex-col gap-10 justify-center items-center p-8 md:flex-row md:gap-8 lg:gap-20 mt-20">
-        <Slide left>
+      
           <div className="w-full md:w-1/2 relative bg-secondary-600 p-4 m-4 flex flex-col rounded-3xl">
             <img src={MMAPP} alt="Image" className="mt-8 absolute" />
             <div className="pl-4 md:pl-8"> {/* Add padding to this container */}
@@ -73,12 +82,10 @@ const Project = () => {
                   alt="Image 1"
                   className="w-full md:w-1/2 h-auto md:h-3/4"
                 />
-              </div>
+            </div>
             </div>
           </div>
-        </Slide>
 
-        <Slide right>
           <div className="w-full md:w-1/2 relative bg-secondary-400 p-4 m-4 flex flex-col rounded-3xl">
             <img src={MOTOFIT} alt="Image" className="mt-4 absolute" />
             <h2 className="text-xl md:text-2xl text-yellow-500 mt-10">
@@ -96,9 +103,8 @@ const Project = () => {
                 alt="Image 2"
                 className="w-full md:w-1/2 h-auto md:h-3/4"
               />
-            </div>
           </div>
-        </Slide>
+          </div>
       </div>
     </div>
   );

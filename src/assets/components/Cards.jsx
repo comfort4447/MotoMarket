@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade'; // Import the Fade component
 import frsc from '../../assets/Images/frsc.png';
 import health from '../../assets/Images/health.png';
 import visit from '../../assets/Images/visit.png';
@@ -35,8 +34,7 @@ const cardsData = [
 const Card = ({ image, date, header, details, text, link }) => {
   const secondaryTextColor100 = 'text-secondary-500';
   return (
-    <Fade bottom> {/* Wrap the card content with Fade component */}
-      <div className="bg-white rounded-lg p-4 md:w-1/2 lg:w-96 m-4 h-auto">
+      <div className="bg-white rounded-lg p-4 md:w-1/2 lg:w-96 m-4 h-auto zoom">
         <div className="relative rounded-lg overflow-hidden">
           <img src={image} alt={header} className="w-full h-48 object-cover rounded-lg" />
         </div>
@@ -47,7 +45,6 @@ const Card = ({ image, date, header, details, text, link }) => {
           <a href=''><p className={`text-sm mt-4 text-left cursor-pointer ${secondaryTextColor100}`}>{text}</p></a>
         </Link>
       </div>
-    </Fade>
   );
 };
 
